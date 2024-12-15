@@ -11,7 +11,7 @@ setup(
     description="The open-source LLMs evaluation framework.",
     packages=find_packages(),
     include_package_data=True,
-    python_requires=">=3.9, <3.13",
+    python_requires=">=3.9",
     install_requires=[
         "requests",
         "tqdm",
